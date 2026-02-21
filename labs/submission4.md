@@ -13,7 +13,7 @@ uptime
 w
 ```
 
-### Raw Output
+### Output
 
 ```text
 Startup finished in 4.150s (kernel) + 17.918s (userspace) = 22.068s 
@@ -97,7 +97,7 @@ systemctl list-dependencies
 systemctl list-dependencies multi-user.target
 ```
 
-### Output (truncated)
+### Output
 
 ```text
 default.target
@@ -129,7 +129,7 @@ multi-user.target
 │ └─timers.target
 ├─cloud-init.target
 └─getty.target
-# ... (full tree omitted for readability)
+# ...
 ```
 
 ### Observations
